@@ -1,0 +1,37 @@
+.Landinginfo_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    gap: 3px;
+}
+
+.Landinginfo_info H3{
+    color: rgb(160, 188, 179);
+}
+
+.Landinginfo_info_titulo_y_subtitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.Landinginfo_info_fecha_y_lugar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 18px 0 36px 0;
+}
+
+.Landinginfo_info_fecha_y_lugar h2{
+    color: rgb(186, 119, 211);
+}
+
+.Landinginfo_info_fecha_y_lugar h3{
+    color: rgb(189, 182, 182);
+}
