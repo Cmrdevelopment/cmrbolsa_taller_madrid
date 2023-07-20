@@ -1,10 +1,11 @@
 import "./Footer.css";
 
 const Footer = () => {
-    return (
+    
+    return (    
         <div className="Footer">
-           <p> © cmrbolsa </p>
-        </div>
+        <p> <a href="https://cmrbolsa.com/" className="link">© by cmrbolsa.com</a> </p>
+      </div>
     );
 }
 
