@@ -23,8 +23,11 @@ const LandingPrecio = () => {
         <div className="LandingPrecio_y_cuanto_cuesta">
             <div className="LandingPrecio_con-libro-o-sin-libro">
             <h1>¿Y cuanto cuesta?</h1>
+            <div className="LandingPrecio_libro-digital-precio">
             <p>Tienes estas dos opciones, con o sin libro digital (ebook) de `Desgranando la esencia del mercado`</p>
+            <br />
             <p> Precio del ebook <span className="LandingPrecio_precio-del-libro"> 19.80€</span> 10.50€</p>
+            </div>
             </div>
         </div>
         <div className="LandingPrecio_container_general">

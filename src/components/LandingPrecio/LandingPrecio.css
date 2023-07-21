@@ -79,7 +79,12 @@
     text-align: center;
     line-height: 2;
     font-weight: 450;
-
 }
 
+@media screen and (max-width: 500px) {
+.LandingPrecio_libro-digital-precio p{
+    font-size: 16px;
+    margin: 0 23px 0 23px;
+}
+}
 

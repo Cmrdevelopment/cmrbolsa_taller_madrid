@@ -37,9 +37,9 @@ const Landinginfo = () => {
             <br />            
             <div className="Landinginfo_info_a-quien-va-dirigido-y-que-aprenderas">
             <h2>¿A quien va dirigido?</h2>
-            <h5>(Dirigido para aquellos que <u>desean conocer o ya se han iniciado</u> en la metodología de Precio y Volumen)</h5>
+            <h5 className="Landinginfo_info_dirigido-para-aquellos">(Dirigido para aquellos que <u>desean conocer o ya se han iniciado</u> en la metodología de Precio y Volumen)</h5>
             <p className="Landinginfo_info_a-quien-va-dirigido-y-te-gusta"> Si te gusta la inversión o especulación en la bolsa y quieres ver cómo leemos el mercado, solo debes venir y disfrutar del mercado con nosotros. Hablaremos sobre la manipulación de los mercados, pero no la manipulación que uno suele pensar, sino la que podrás ver a través de un gráfico. Sí, aquella que hacen los `profesionales` para que la `masa` deje su pasta sin `darse cuenta`.</p>
-            <h2>Entender, comprender para operar conociendo cómo y porqué se mueve el mercado</h2>   
+            <h2 className="Landinginfo_info_titulo_enteder_y_comprender">Entender, comprender para operar conociendo cómo y porqué se mueve el mercado</h2>   
 
             <div className="Landinginfo_info_a-quien-va-dirigido-comprender_y_operar">
             <p>Aprenderás y practicaremos, bajo la metodología de precio, volumen y estructura (PEV), y comprenderás <strong>cómo un profesional hace sus jugarretas y arrebata</strong>, de una manera sencilla, la pasta a la masa.</p>

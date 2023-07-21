@@ -105,6 +105,21 @@
         padding: 9px;
     }
 
+    .Landinginfo_info_a-quien-va-dirigido-comprender_y_operar{    
+        gap: 3px;    
+    }
+
+    .Landinginfo_info_titulo_enteder_y_comprender{
+        font-size:19px;
+        padding: 21px;
+
+    }
+
+    .Landinginfo_info_dirigido-para-aquellos{
+        font-size: 12px;
+        padding: 12px;
+    }
+
 
 
 } 
