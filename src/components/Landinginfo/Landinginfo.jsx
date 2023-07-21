@@ -20,7 +20,7 @@ const Landinginfo = () => {
             <h2>Manipulación en los mercados y como <spam className="azul_cmrbolsa_08accc"> aprovecharse de esa manipulación</spam> conociendo la estructura y el volumen</h2>
             <h3>(¿O sigues pensando que <u>con indicadores</u> podrás batir al mercado? 😢)</h3>
             <br />
-            -------------------------------------------------------
+            <span className="LandingGeneral_linea_de_puntos"> -------------------------------------------------------</span>
             <div>
             <button className="boton_reserva" onClick={handleButtonClick}>Quiero reservar mi plaza</button>
             </div>           

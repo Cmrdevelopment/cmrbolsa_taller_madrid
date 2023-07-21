@@ -16,6 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 3px;
 }
 
@@ -84,3 +85,21 @@
     line-height: 2;
     font-weight: 450;
 }
+
+@media screen and (max-width: 500px) {
+    .Landinginfo_info{
+        text-align: center;
+    }
+    .Landinginfo_info_titulo_y_subtitulo{
+        padding: 36px;
+    }
+
+    .Landinginfo_info_titulo_y_subtitulo h2{
+        font-size: 23px;
+    }
+    .Landinginfo_info_titulo_y_subtitulo h3{
+        font-size: 16px;
+    } 
+
+} 
+

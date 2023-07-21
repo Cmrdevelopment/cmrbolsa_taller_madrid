@@ -18,7 +18,6 @@
 .Landingheader_imagenes_carlos img{
     height: 180px;
     width: 179px;
-    
 }
 
 .Landingheader_imagenes_miguel img{
@@ -36,9 +35,6 @@
 .Landingheader_imagenes_carlos h3 a:hover, .Landingheader_imagenes_miguel h3 a:hover{
     color: var(--color-azul)
 }
-
-
-
 
 .Landingheader_logo_imagen_fondo img{
     height: 95px;
@@ -67,4 +63,26 @@
     gap: 12px;
 }
 
+.Landingheader_titulo{
 
+    text-align: center;
+}
+
+
+@media screen and (max-width: 500px) {
+    .Landingheader_imagenes_carlos_miguel{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 75px;
+    }
+
+    .Landingheader_titulo{
+        display: flex;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+} 

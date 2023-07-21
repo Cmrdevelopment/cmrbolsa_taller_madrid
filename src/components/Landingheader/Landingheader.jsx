@@ -29,9 +29,11 @@ const Landingheader = () => {
                                     
         </section>
         <div className="Landingheader_titulo_subtitulo">
-        <h1>Taller <u>presencial</u> de <span className="azul_cmrbolsa_08accc">P</span>recio, <span className="azul_cmrbolsa_08accc">V</span>olumen y <span className="azul_cmrbolsa_08accc">E</span>structura</h1>
+            <div className="Landingheader_titulo">
+            <h1>Taller <u>presencial</u> de <span className="azul_cmrbolsa_08accc">P</span>recio, <span className="azul_cmrbolsa_08accc">V</span>olumen y <span className="azul_cmrbolsa_08accc">E</span>structura</h1>
+            </div>
             <h2 className="azul_cmrbolsa_08accc">PEV</h2>
-            -------------------------------------------------------
+            <span className="LandingGeneral_linea_de_puntos">-------------------------------------------------------</span>
         </div> 
     </>
     );
