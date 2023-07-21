@@ -81,10 +81,13 @@
     font-weight: 450;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 730px) {
 .LandingPrecio_libro-digital-precio p{
     font-size: 16px;
     margin: 0 23px 0 23px;
-}
+    }
+    .LandingPrecio_envio_del_libro p{
+        font-size: 9px;
+    }
 }
 

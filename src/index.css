@@ -54,7 +54,7 @@ h5{
   color: #25d366;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 730px) {
 
   .LandingGeneral_linea_de_puntos{
       color: transparent;

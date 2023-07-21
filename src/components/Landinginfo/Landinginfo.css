@@ -86,7 +86,7 @@
     font-weight: 450;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 730px) {
     .Landinginfo_info{
         text-align: center;
     }

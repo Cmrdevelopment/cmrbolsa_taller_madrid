@@ -69,7 +69,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 730px) {
     .Landingheader_imagenes_carlos_miguel{
         display: flex;
         flex-direction: column;
