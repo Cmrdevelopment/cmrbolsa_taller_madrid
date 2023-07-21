@@ -1,0 +1,56 @@
+.LandingPrecio_y_cuanto_cuesta{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 57px;
+}
+
+.LandingPrecio_con-libro-o-sin-libro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.LandingPrecio_container_general{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.LandingPrecio_container_tablas{
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    height: 450px;
+    width: 320px;
+    transition: linear 0.2s;
+    cursor: pointer;
+}
+
+.LandingPrecio_container_tablas:hover{
+    box-shadow: 9px 0px 9px 0px rgba(8, 172, 204, 0.7);
+    background-color: rgb(197, 166, 208);
+}
+
+.LandingPrecio_titulo_y_precio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.LandingPrecio_precio{
+    margin-top: 18px;
+    color: #08accc;
+}
+
+.LandingPrecio_info_taller{
+    line-height: 2.5;
+}
+
+

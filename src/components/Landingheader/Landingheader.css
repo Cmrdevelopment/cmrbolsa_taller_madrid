@@ -1,10 +1,50 @@
+.Landingheader_imagenes_carlos_miguel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    gap: 75px;
+}
+
+.Landingheader_imagenes_carlos, .Landingheader_imagenes_miguel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    gap: 16px;
+    z-index: 1;
+}
+
+.Landingheader_imagenes_carlos img{
+    height: 180px;
+    width: 179px;
+    
+}
+
+.Landingheader_imagenes_miguel img{
+    height: 185px;
+    width: 230px;
+}
+
+.Landingheader_imagenes_carlos h3 a, .Landingheader_imagenes_miguel h3 a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.Landingheader_imagenes_carlos h3 a:hover, .Landingheader_imagenes_miguel h3 a:hover{
+    color: var(--color-azul)
+}
+
+
+
 
 .Landingheader_logo_imagen_fondo img{
     height: 95px;
     width: 200px;
     object-fit: cover;
     margin-top: 360px;
-
 }
 
 .Landingheader_logo_imagen_fondo{
@@ -15,6 +55,8 @@
     height: 500px;
     background-image: url("https://res.cloudinary.com/dwbxywvdw/image/upload/v1689774604/Valores_trasnparencia_tkldqm.png");
     opacity: 0.7;
+    margin-top: -250px;
+    z-index: 2;
 }
 
 .Landingheader_titulo_subtitulo{
