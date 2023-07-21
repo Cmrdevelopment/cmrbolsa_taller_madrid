@@ -49,7 +49,7 @@ const Landinginfo = () => {
             <p className="Landinginfo_info_a-quien-va-dirigido-adivinar">No se trata de adivinar ni de apostar a un largo o corto, se trata de ENTENDER y COMPRENDER qué es lo que ocurre en el mercado y cuándo podemos hacer hipótesis y cuándo no. Ayudándote en tu operativa a asumir riesgos proporcionados y con una gestión monetaria aceptable.</p>           
             
             </div>
-            -------------------------------------------------------
+            <span className="LandingGeneral_linea_de_puntos">-------------------------------------------------------</span>
             <br />
             <section id="reservarPlaza"></section>
         </section>
