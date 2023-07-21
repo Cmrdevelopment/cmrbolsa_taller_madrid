@@ -1,11 +1,18 @@
 
+
 import SimpleMap from "../SimpleMap/SimpleMap";
 import "./Landinginfo.css";
 
 const Landinginfo = () => {
     const handleButtonClick = () => {
-        window.open('https://cmrbolsa.com/', '_blank');
-      };
+        const elementoDestino = document.querySelector('#reservarPlaza');
+        if (elementoDestino) {
+          elementoDestino.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start',
+          });
+        }
+    };
     return (
         <> 
             <section className="Landinginfo_info">
@@ -15,7 +22,7 @@ const Landinginfo = () => {
             <br />
             -------------------------------------------------------
             <div>
-            <button className="boton_reserva" onClick={handleButtonClick}>Quiero reserva MI PLAZA</button>
+            <button className="boton_reserva" onClick={handleButtonClick}>Quiero reservar mi plaza</button>
             </div>           
             </div>
             <span className="Landinginfo_info_fecha_y_lugar">
@@ -44,9 +51,8 @@ const Landinginfo = () => {
             </div>
             -------------------------------------------------------
             <br />
+            <section id="reservarPlaza"></section>
         </section>
-
-        <img src="" alt="" />
     </>
     );
 }

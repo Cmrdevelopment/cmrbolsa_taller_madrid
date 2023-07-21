@@ -1,0 +1,33 @@
+.LandingSaberMas_boton_quieres_saber_mas{
+    background-color: var(--color-azul);
+    padding: 16px;
+    margin-top: 36px;
+    transition: linear 0.2s;   
+    cursor: pointer;
+    width: 100%;   
+    line-height: 1.6;
+    font-weight: 450;
+    border: 0;
+}
+
+.LandingSaberMas_boton_quieres_saber_mas:hover{
+    cursor: pointer;
+    background-color: #F0F0F0;
+}
+
+.LandingSaberMas_texto p{
+    font-size: 16px;
+    
+}
+
+.LandingSaberMas_texto p:hover{
+    transition: linear 0.2s; 
+    font-size: 18px;
+}
+
+.LandingSaberMas_texto span{
+    color: white;
+}
+.LandingSaberMas_texto span:hover{
+    color: black;
+}

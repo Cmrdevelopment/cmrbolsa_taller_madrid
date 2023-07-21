@@ -3,8 +3,9 @@ import "./Footer.css";
 const Footer = () => {
     
     return (    
-        <div className="Footer">
-        <p> <a href="https://cmrbolsa.com/" className="link">© by cmrbolsa.com</a> </p>
+        <div className="footer">
+        <p> <a href="https://cmrbolsa.com/" className="link">©2023 by cmrbolsa.com</a> </p>
+        <p> <a href="https://cmrbolsa.com/terminos-y-condiciones/" className="link">Términos y Condiciones</a> </p>
       </div>
     );
 }

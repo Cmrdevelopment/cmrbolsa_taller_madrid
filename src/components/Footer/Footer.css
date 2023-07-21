@@ -1,11 +1,21 @@
-.Footer{
+.footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 20vh;
-    font-size: 21px;
+    font-size: 14px;
+    gap: 7px;
     text-decoration: none;
+}
+
+.footer a{
+    color: black;
+}
+
+.footer a:hover{
+    color: var(--color-azul);
+    font-weight: 500;
 }
 
 .link{

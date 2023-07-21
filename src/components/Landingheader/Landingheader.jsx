@@ -17,7 +17,7 @@ const Landingheader = () => {
         <div className="Landingheader_imagenes_miguel">
         <img className="Landingheader_imagenes_miguel" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1689932361/Miguel_Angel_Sosa_sin_fondo_218x220_dojfdj.png" alt="imagen Miguel Angel" />
         <h3>
-        <a href="https://twitter.com/cmrbolsa" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/duricof" target="_blank" rel="noopener noreferrer">
             <FiTwitter/>@duricof
         </a>
         </h3>
