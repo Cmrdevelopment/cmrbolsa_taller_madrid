@@ -18,12 +18,6 @@ const SimpleMap = () => {
                         Hotel Silken Puerta de Madrid 🏩
                     </Popup>
                 </Marker>
-
-                {/* <Marker position={posEnd}>
-                    <Popup>
-                        End of Route 👌
-                    </Popup>
-                </Marker> */}
             </MapContainer>
         </div>
     );
