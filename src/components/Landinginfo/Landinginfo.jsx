@@ -32,6 +32,7 @@ const Landinginfo = () => {
             <h2>¿Donde será el taller?</h2>
             <h5>Hotel Silken Puerta Madrid en calle Juan Rizi, 5, 28027 Madrid</h5>
             <h5><a className="Landinginfo_info_como_llegar_al_hotel"  href={'https://goo.gl/maps/V12PDL2CeKTSVGbw6'} target="_blank" rel="noopener noreferrer">¿Como llegar al hotel?</a></h5>
+            <h5>¡Si deseas quedarte en hotel, no dudes en preguntarme! Te proporcionaré un código especial para que puedas disfrutar de un descuento.</h5><h5> ¡Espero verte pronto y que vivas un TALLER inolvidable en nuestro hotel! 🌟🏨</h5>
             </span>
             <SimpleMap />
             <br />            
