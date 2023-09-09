@@ -61,6 +61,16 @@ h5{
   }
 }
 
+.Landing_info_anuncio_patrocinio{
+  margin-top: 36px; 
+}
+
+.Landing_info_patrocinio img{
+  margin-top: 12px;    
+  width: 250px;
+  object-fit: cover;   
+}
+
 
 
 /* :root {
