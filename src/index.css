@@ -71,6 +71,13 @@ h5{
   object-fit: cover;   
 }
 
+.Landing_patrocinio_general{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 /* :root {
